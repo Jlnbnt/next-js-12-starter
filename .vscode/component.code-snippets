@@ -1,0 +1,11 @@
+{
+  "React Component": {
+    "prefix": "rc",
+    "body": [
+      "export const ${TM_FILENAME_BASE} = () => {",
+      "  return <></>",
+      "}"
+    ],
+    "description": "React Component"
+  }
+}

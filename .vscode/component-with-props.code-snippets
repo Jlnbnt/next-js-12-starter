@@ -1,0 +1,15 @@
+{
+  "React Component with Props": {
+    "prefix": "rcwp",
+    "body": [
+      "interface ${TM_FILENAME_BASE}Props {",
+      "  arg: any",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE} = ({ arg }: ${TM_FILENAME_BASE}Props) => {",
+      "  return <></>",
+      "}"
+    ],
+    "description": "React Component with Props"
+  }
+}

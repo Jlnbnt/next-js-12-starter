@@ -1,0 +1,142 @@
+/*
+ * User specific settings
+ */
+{
+  /**
+   * Editor
+   */
+  // Inline editor differences
+  "diffEditor.renderSideBySide": true,
+  // Smooth cursor movements
+  "editor.cursorSmoothCaretAnimation": "on",
+  // Number of line before the top/bottom the scroll with start
+  "editor.cursorSurroundingLines": 5,
+  // Same as above, for selection
+  "editor.cursorSurroundingLinesStyle": "all",
+  // Disable drag and drop
+  "editor.dragAndDrop": false,
+  // Disable lightbulb
+  "editor.lightbulb.enabled": false,
+  // Minimap width
+  "editor.minimap.maxColumn": 60,
+  // Scrollbar border
+  "editor.overviewRulerBorder": false,
+  // Line Highlight
+  "editor.renderLineHighlight": "none",
+  // More accurate suggestion in case of typo
+  "editor.suggest.filterGraceful": true,
+  // Exclude "-" from separators, UUID can the be selected in one go
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  /**
+   * Formatting
+   */
+  // Format on save
+  "editor.formatOnSave": true,
+  // JSON formatting
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "scm.alwaysShowActions": false,
+
+  /**
+   * Explorer
+   */
+  // Incremental naming on copy paste
+  "explorer.incrementalNaming": "smart",
+  /**
+   * Files
+   */
+  "files.exclude": {},
+  /**
+   * Windows
+   */
+  // Define the window title
+  "window.title": "${activeEditorShort}",
+  /**
+   * Workbench
+   */
+  // Enable preview mode when selecting a file from quick-open
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  // Goes back to previous editor on close
+  "workbench.editor.focusRecentEditorAfterClose": true,
+  // Position of the new open editor
+  "workbench.editor.openPositioning": "last",
+  // Tab sizing
+  "workbench.editor.tabSizing": "shrink",
+  //Side bar position
+  "workbench.sideBar.location": "right",
+  // Startup editor
+  "workbench.startupEditor": "none",
+  // Workbench statusbar
+  "workbench.statusBar.visible": false,
+  // Indent guides of tree
+  "workbench.tree.renderIndentGuides": "onHover",
+  /*
+   * Imports
+   */
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  /*
+   * GitBlame
+   */
+  "gitblame.inlineMessageEnabled": true,
+  "gitblame.inlineMessageFormat": "${author.name} (${time.ago})",
+  "gitblame.inlineMessageNoCommit": "",
+  /*
+   * ShortcutMenuBar
+   */
+  "ShortcutMenuBar.beautify": false,
+  "ShortcutMenuBar.navigateBack": false,
+  "ShortcutMenuBar.navigateForward": false,
+  "ShortcutMenuBar.userButton01Command": "workbench.action.tasks.runTask|Run all tests",
+  "ShortcutMenuBar.userButton02Command": "workbench.action.tasks.runTask|Run current file tests",
+  "ShortcutMenuBar.userButton03Command": "workbench.action.tasks.runTask|Stop tests",
+  "ShortcutMenuBar.openFilesList": false,
+  "ShortcutMenuBar.toggleTerminal": false,
+  "workbench.iconTheme": "vscode-icons",
+  "gitblame.statusBarMessageNoCommit": "Blame ${author.name (${time.ago)}",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  /*
+   * Peacock
+   */
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#f09156",
+    "activityBar.background": "#f09156",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#c4fad9",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#f09156",
+    "statusBar.background": "#ec7227",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#ce5a12",
+    "statusBarItem.remoteBackground": "#ec7227",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#ec7227",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#ec722799",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "cSpell.words": ["roboto"]
+}

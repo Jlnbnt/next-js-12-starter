@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    // Target version of ECMAScript.
+    "target": "ES6",
+    // List of libraries available to the TypeScript code.
+    "lib": ["dom", "dom.iterable", "esnext"],
+    // Enable strict type checking.
+    "strict": true,
+    // Enable incremental compilation for faster builds.
+    "incremental": true,
+    // Remove comments from the generated JavaScript.
+    "removeComments": true,
+    // Skip type checking of declaration files.
+    "skipLibCheck": true,
+    // Specify module system to use (ES6).
+    "module": "esnext",
+    // Preserve JSX in the output.
+    "jsx": "preserve",
+    // Enable interoperability with CommonJS modules.
+    "esModuleInterop": true,
+    // Specify module resolution strategy (Node.js).
+    "moduleResolution": "Node",
+    // Allow importing JSON files as modules.
+    "resolveJsonModule": true,
+    // Allow JavaScript files alongside TypeScript.
+    "allowJs": true,
+    // Do not emit any JavaScript output (TypeScript only).
+    "noEmit": true,
+    // Ensure modules are isolated with no global side-effects.
+    "isolatedModules": true,
+    // Base URL for module imports.
+    "baseUrl": ".",
+    // Define path aliases for module imports (e.g., "@/components").
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "forceConsistentCasingInFileNames": true
+  },
+  // Include type definitions and TypeScript/TSX source files.
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  // Exclude node_modules directory from compilation.
+  "exclude": ["node_modules"]
+}
