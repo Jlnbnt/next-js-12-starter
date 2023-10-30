@@ -34,9 +34,6 @@ export const MuiThemeProvider: FC<PropsWithChildren> = ({ children }) => {
   )
 }
 
-/**
- * We use a context for the hook to keep in sync the theme's mode throughout the app.
- */
 export const useThemeContext = () => {
   return useContext(MuiThemeContext)
 }
